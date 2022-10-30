@@ -1,0 +1,12 @@
+body { background: linear-gradient(
+    to top,
+    darkgrey 0%, grey 15%,
+    white 15% 30%,
+    lightgrey 30% 80%,
+    darkgrey 80% 90%,
+    black 90% 100%
+ );
+ width: device-width;
+ padding: 40%;
+
+}
