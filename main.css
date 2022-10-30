@@ -7,6 +7,32 @@ body { background: linear-gradient(
     black 90% 100%
  );
  width: device-width;
- padding: 40%;
+ padding: 35%;
+ max-height: 100% !important;
+ initial-scale=1.0;
+ maximum-scale=1.0;
+ user-scalable=0;
+ font-family: Oswald;
+}
 
+img{
+margin: 15px;
+top: 35px;
+left: 30px;
+width: 128px;
+height: auto ;
+max-height: 100% !important; position: absolute;
+}
+
+p{font-family: Oswald;
+font-size: 18px;
+}
+
+h1,h2,h3{
+font-size: 22px;
+font-family: Oswald;
+}
+
+div{
+column-count: 3;
 }
