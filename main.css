@@ -23,15 +23,26 @@ width: 128px;
 max-height: 100% !important; position: absolute;
 }
 
-p{font-family: Oswald;
-font-size: 20px;
+
+h1{
+font-family: Roboto;
+font-size: 22px;
+position: absolute;
+top: 27%;
+left: 5%
+
+
+}
+p{font-family: Roboto;
+font-size: 18px;
 }
 
-h1,h2,h3{
-font-size: 24px;
-font-family: Oswald;
+h2,h3,h4{
+font-size: 20px;
+font-family: Roboto;
 }
 
 div{
 column-gap: 150px;
 }
+
