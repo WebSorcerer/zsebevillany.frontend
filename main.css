@@ -17,8 +17,8 @@ body { background: linear-gradient(
 
 img{
 margin: 15px;
-top: 35px;
-left: 30px;
+top: 3%;
+left: 46%;
 width: 128px;
 max-height: 100% !important; position: absolute;
 }

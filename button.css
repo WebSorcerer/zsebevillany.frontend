@@ -1,5 +1,5 @@
         .button1 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:15%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        position: absolute; top: 9%; left:8%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
         }
 
         .button1:hover {
@@ -7,9 +7,25 @@
         }
 
         .button2 { font-family: Roboto; color: white; background-color: transparent; border:none;
-                position: absolute; top: 9%; left:25%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        position: absolute; top: 9%; left:21%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        }
+
+        .button2:hover {
+        color:orange;
+        }
+
+        .button3 { font-family: Roboto; color: white; background-color: transparent; border:none;
+        position: absolute; top: 9%; left:36%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        }
+
+        .button3:hover {
+        color:orange;
+        }
+
+        .button4 { font-family: Roboto; color: white; background-color: transparent; border:none;
+                position: absolute; top: 9%; left:58%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
                 }
 
-                .button2:hover {
+                .button4:hover {
                 color:orange;
                 }
