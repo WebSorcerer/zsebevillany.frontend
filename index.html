@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="button.css">
 
 <style>
+
+
     @font-face {
         font-family:Oswald;
         src: url(/font-oswald/Oswald-VariableFont_wght.ttf);
@@ -52,6 +54,8 @@
         height: 650px;
         max-height: 100% !important;
         }
+
+
 
 </style>
 </head>
@@ -109,11 +113,29 @@ energiamenendzsment, fogyasztásmérés és optimalizálás.<br>
     Mobil: <a style="color: white;" href="tel: 06209777260"> 20/977-7260</a><br>
     E-mail:<a style="color: white;" href = "mailto: info@zsebevillany.hu"> info@zsebevillany.hu</a><br></h5>
 
+<ul>
+    <li><a href="#home">Kezdőlap</a><li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Villanyszerelés</a>
+        <div class="dropdown-content">
+            <a href="#">Elektronikai...</a>
+            <a href="#">Elektronikai...</a>
+            <a href="#">Elektronikai...</a>
+            <a href="#">Elektronikai...</a>
+        </div>
+    </li>
+</ul>
+
 <div>
+
     <button id="b1" class="button1">Kezdőlap</button>
-    <button id="b2" class="button2">Villanyszerelés</button>
+
     <button id="b3" class="button3">Gépészet</button>
     <button id="b4" class="button4">Referenciák</button>
+    <button id="b5" class="button5">Karrier</button>
+    <button id="b6" class="button6">Rólunk</button>
+
+
 <script>
     document.getElementById("b1").onclick = function() {myFunction(b1)};
 
@@ -121,9 +143,9 @@ energiamenendzsment, fogyasztásmérés és optimalizálás.<br>
     document.getElementById("b1").innerHTML = "Kezdőlap";
     }
 
-    document.getElementById("b2").onlick = function() {myFunction(b2)};
+    document.getElementById("b2").onclick = function() {myFunction(dropbtn)};
 
-    function myFunction("b2") {
+    function myFunction(b2) {
     document.getElementById("b2").innerHTML = "Villanyszerelés";
     }
 
