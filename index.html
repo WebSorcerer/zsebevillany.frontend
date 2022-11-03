@@ -113,27 +113,34 @@ energiamenendzsment, fogyasztásmérés és optimalizálás.<br>
     Mobil: <a style="color: white;" href="tel: 06209777260"> 20/977-7260</a><br>
     E-mail:<a style="color: white;" href = "mailto: info@zsebevillany.hu"> info@zsebevillany.hu</a><br></h5>
 
-<ul>
-    <li><a href="#home">Kezdőlap</a><li>
-    <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Villanyszerelés</a>
+<div class="navbar">
+    <a href="#home">Kezdőlap</a>
+            <button id="b1" class="button1">Kezdőlap</button>
+     <div class="dropdown">
+            <button class="button2" id="b2">Villanyszerelés</button>
         <div class="dropdown-content">
-            <a href="#">Elektronikai...</a>
-            <a href="#">Elektronikai...</a>
-            <a href="#">Elektronikai...</a>
-            <a href="#">Elektronikai...</a>
+            <a href="#">Elektronikai...</a><br>
+            <a href="#">Elektronikai...</a><br>
+            <a href="#">Elektronikai...</a><br>
+            <a href="#">Elektronikai...</a><br>
         </div>
-    </li>
-</ul>
+     </div>
+    <div class="dropdown">
+            <button id="b3" class="button3">Gépészet</button>
+        <div class="dropdown-content">
+            <a href="#">Valami</a> <br>
+            <a href="#pricecalc">Árajánlat kérése</a> <br>
+        </div>
+    </div>
 
-<div>
 
-    <button id="b1" class="button1">Kezdőlap</button>
 
-    <button id="b3" class="button3">Gépészet</button>
+
+
     <button id="b4" class="button4">Referenciák</button>
     <button id="b5" class="button5">Karrier</button>
     <button id="b6" class="button6">Rólunk</button>
+</div>
 
 
 <script>
@@ -143,7 +150,7 @@ energiamenendzsment, fogyasztásmérés és optimalizálás.<br>
     document.getElementById("b1").innerHTML = "Kezdőlap";
     }
 
-    document.getElementById("b2").onclick = function() {myFunction(dropbtn)};
+    document.getElementById("b2").onclick = function() {myFunction(b2)};
 
     function myFunction(b2) {
     document.getElementById("b2").innerHTML = "Villanyszerelés";
@@ -163,7 +170,7 @@ energiamenendzsment, fogyasztásmérés és optimalizálás.<br>
 
 
 </script>
-</div>
+
 
 
 
