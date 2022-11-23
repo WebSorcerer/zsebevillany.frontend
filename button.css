@@ -1,86 +1,93 @@
-        .button1 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:8%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
-        }
-        .button1:hover {
-        color:orange;
-        }
-
-
-        .button2 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:21%; text-align: center; text-decoration: none; font-size: 15px;
-        }
-        .button2:hover {
-        color:orange;
-        }
 
         .navbar {
         overflow: hidden;
-        background-color: black;
+        background-color: transparent;
+        position: center;
+        width: 100%;
+        height: 15%;
+
         }
 
-        .navbar a, .button1, .button2, .button3, .button4, .button5, .button6{
+        .navbar a, .button2, .button3, .button4, .button5, .button6{
         font-size: 15px;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 8px 15px;
+
+        border:none;
         }
 
-        .dropdown {
-        float: left;
-        overflow: hidden;
-        }
 
-        .navbar a:hover, .dropdown:hover .button1, .button2, .button3, .button4, .button5, .button6 {
-        background-color: transparent;
-        }
+
 
         .dropdown-content {
-        display: none;
-        position: absolute;
-        left: 0;
-        background-color: pink;
+        display: inline-block;
+        position: relative;
+        background-color: transparent;
         width: 100%;
+        height: 150px;
         z-index: 1;
+
         }
 
         .dropdown-content a{
-        float: left;
-        color: black;
+        position: relative;
+        display: inline-block;
+        color: transparent;
+        background-color: transparent;
         text-decoration: none;
+        width: 120%;
+        float: dropdown;
+        text-align: left;
+
+
         }
 
-        .dropdown-content:hover a { background-color: lightgrey; color: black;}
+        .dropdown-content:hover a { background-color:black; color: orange; opacity: 100%;}
 
         .dropdown-content:hover .dropdown:hover  {
-        display: block;
+
+        background-color: black; opacity: 50%;
         }
 
-        .button3 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:36%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        a{ font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 8%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+        }
+
+        a:hover {
+        color: orange;
+        background-color:transparent;
+        }
+
+        .button2 {font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 20%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+        }
+
+        .button2:hover {
+        color: orange;
+        background-color:transparent;
+        }
+
+        .button3 {font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 35%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
         }
 
         .button3:hover {
         color:orange;
         }
 
-        .button4 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:60%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        .button4 {background-color:transparent; position: absolute; top: 9%; left: 60%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
         }
 
         .button4:hover {
         color:orange;
         }
 
-        .button5 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:75%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        .button5 {background-color:transparent; position: absolute; top: 9%; left: 74%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
         }
 
         .button5:hover {
         color:orange;
         }
 
-        .button6 { font-family: Roboto; color: white; background-color: transparent; border:none;
-        position: absolute; top: 9%; left:88%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+        .button6 {background-color:transparent; position: absolute; top: 9%; left:88%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
         }
 
         .button6:hover {
