@@ -16,18 +16,6 @@ body { background: linear-gradient(
  font-family: Roboto;
 }
 
-}
-
-
-}
-
-
-logo{ width: 128px;
-margin: 15px;
-top: 3%;
-left: 46%;
-position: absolute;
-}
 
 
 h1{
@@ -40,12 +28,15 @@ left: 5%
 
 }
 p{font-family: Roboto;
-font-size: 18px;
+font-size: 16px;
+margin: 15px;
+text-align: center;
 }
 
 h2,h3,h4{
-font-size: 20px;
+font-size: 14px;
 font-family: Roboto;
+text-align: center;
 }
 
 h6 {
