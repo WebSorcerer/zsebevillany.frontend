@@ -6,12 +6,27 @@
   z-index: 1;
 }
 
-#bulb {
+.float-area{
+heigth: 50vh;
+display: flex;
+flex-decoration:column;
+align-items: left;
+justify-content: center;
 position: absolute;
-top: 20%;
-left: 20%;
-z-index: 1;
-width: 300px;
+left: 38%;
+top: 55%;
 
 }
 
+.floating-icon{
+  transform: translateY(-10%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+  width: 500px;
+  height: 500px;
+}
+
+@keyframes floater {
+  0%{transform: translateY(-10%);transition: ease 0.5s;}
+  50%{transform: translateY(10%);transition: ease 0.5s;}
+}
