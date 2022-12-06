@@ -37,3 +37,11 @@ left: 50%;
 width: 350px;
 border: black solid 2px;
 }
+
+#lightbulb {
+position: absolute;
+width: 450px;
+top: 14%;
+opacity: 50%;
+
+}
