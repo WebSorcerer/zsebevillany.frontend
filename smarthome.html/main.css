@@ -7,7 +7,7 @@ body { background: linear-gradient(
 animation: gradient 10s ease infinite;
  overflow-x: hidden;
  overflow-y: scroll;
-
+margin: none;
  initial-scale=1.0;
  maximum-scale=1.0;
  user-scalable=0;
@@ -31,11 +31,20 @@ h1 {
 font-family: Roboto;
 font-size: 46px;
 position: absolute;
-top: 20%;
-margin: 15px;
+top: 15%;
+margin: 100px;
 text-align: center;
 
+}
 
+
+p {
+font-family: Roboto;
+font-size: 20px;
+position: center;
+
+
+}
 
 
 
