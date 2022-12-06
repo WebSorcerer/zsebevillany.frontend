@@ -1,15 +1,14 @@
 body { background: linear-gradient(
     to top,
-    darkgrey 0%, grey 27%,
-    white 27% 40%,
-    lightgrey 40% 80%,
-    darkgrey 80% 90%,
-    black 90% 100%
+    darkgrey 0%, grey 10%,
+        lightgrey 10% 68%,
+        darkgrey 68% 83%,
+        black 83% 100%
  );
 
  width: auto;
 
- padding: 50%;
+ padding: 30%;
  overflow-x: hidden;
  overflow-y: scroll;
 
