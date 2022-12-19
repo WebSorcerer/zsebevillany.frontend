@@ -22,10 +22,11 @@ body { background: linear-gradient(
 
 h1{
 font-family: Roboto;
-font-size: 22px;
+font-size: 26px;
+
+
 
 }
-
 p{font-family: Roboto;
 font-size: 16px;
 margin: 15px;
@@ -34,23 +35,8 @@ text-align: center;
 
 
 
-h6, h7 {
-font-size: 20px;
-font-family: Roboto;
-color: black;
-}
 
-div{
-column-gap: 150px;
-}
 
-h5{ border: solid #282b29 45px; background-color: #282b29;
-color: white;
-font-family: Roboto;
-font-size: 16px;
-position: absolute;
-left: 8%;
-top: 178%;
-}
+
 
 

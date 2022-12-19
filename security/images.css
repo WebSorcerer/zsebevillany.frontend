@@ -1,0 +1,14 @@
+
+#logo {
+  position: absolute;
+  top: 3%;
+  left: 47%;
+}
+
+#cctv {
+position: absolute;
+top: 25%;
+left: 89%;
+width: 220px;
+z-index: 2;
+}
