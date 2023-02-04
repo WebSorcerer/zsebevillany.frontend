@@ -13,7 +13,7 @@
         color: white;
         text-align: center;
         padding: 8px 15px;
-        position: fixed;
+        position: absolute;
 
         border:none;
         }
