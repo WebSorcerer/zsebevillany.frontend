@@ -43,55 +43,55 @@
 
 
 
-        }
+           }
 
-        .dropdown-content:hover a { background-color:black; color: white; opacity: 100%; border: double #212120 5px;}
+           .dropdown-content:hover a { background-color:black; color: white; opacity: 100%; border: double #212120 5px;}
 
-        .dropdown-content:hover .dropdown:hover  {
+           .dropdown-content:hover .dropdown:hover  {
 
-        background-color: black; opacity: 50%;
-        }
+           background-color: black; opacity: 50%;
+           }
 
-        a{ font-family: Roboto; background-color:transparent; position: fixed; top: 9%; left: 8%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
-        }
+           a{ font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 8%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        a:hover {
-        color: orange;
-        background-color:transparent;
-        }
+           a:hover {
+           color: orange;
+           background-color:transparent;
+           }
 
-        .button2 {font-family: Roboto; background-color:transparent; position: fixed; top: 9%; left: 15%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
-        }
+           .button2 {font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 15%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        .button2:hover {
-        color: orange;
-        background-color:transparent;
-        }
+           .button2:hover {
+           color: orange;
+           background-color:transparent;
+           }
 
-        .button3 {font-family: Roboto; background-color:transparent; position: fixed; top: 9%; left: 30%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
-        }
+           .button3 {font-family: Roboto; background-color:transparent; position: absolute; top: 9%; left: 30%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        .button3:hover {
-        color:orange;
-        }
+           .button3:hover {
+           color:orange;
+           }
 
-        .button4 {font-family: Roboto;background-color:transparent; position: fixed; top: 9%; left: 57%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
-        }
+           .button4 {font-family: Roboto;background-color:transparent; position: absolute; top: 9%; left: 57%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        .button4:hover {
-        color:orange;
-        }
+           .button4:hover {
+           color:orange;
+           }
 
-        .button5 {font-family: Roboto;background-color:transparent; position: fixed; top: 9%; left: 74%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
-        }
+           .button5 {font-family: Roboto;background-color:transparent; position: absolute; top: 9%; left: 74%; text-align: center; text decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        .button5:hover {
-        color:orange;
-        }
+           .button5:hover {
+           color:orange;
+           }
 
-        .button6 {font-family: Roboto;background-color:transparent; position: fixed; top: 9%; left:88%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
-        }
+           .button6 {font-family: Roboto;background-color:transparent; position: absolute; top: 9%; left:88%; text-align: center; text-decoration: none; display: inline-block; font-size: 15px;
+           }
 
-        .button6:hover {
-        color:orange;
-        }
+           .button6:hover {
+           color:orange;
+           }
