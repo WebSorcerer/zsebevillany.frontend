@@ -5,11 +5,28 @@
   left: 47%;
 }
 
-#group {
-position: absolute;
-top: 18%;
-left: 40%;
-width: 1000px;
+#ref1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 400px;
+    border: 5px solid grey;
 
+}
+
+#ref2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 400px;
+    border: 5px solid grey;
+}
+
+#ref3 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 300px;
+    border: 5px solid grey;
 
 }
