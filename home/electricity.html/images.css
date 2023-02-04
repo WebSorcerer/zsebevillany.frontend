@@ -6,15 +6,6 @@
   z-index: 1;
 }
 
-#bulb {
-position: absolute;
-top: 20%;
-left: 20%;
-z-index: 1;
-width: 300px;
-
-}
-
 #tree {
 position: absolute;
 top: 79%;
